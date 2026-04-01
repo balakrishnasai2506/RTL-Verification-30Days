@@ -18,7 +18,8 @@ module fsm_1011_tb;
   endtask
   
   //Task Stimulus Generation
-  task stimulus_gen(input logic in);
+  task stimulus_gen();
+    input in;
     begin
       x = in;
       #10;
