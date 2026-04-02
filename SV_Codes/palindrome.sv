@@ -21,3 +21,11 @@ module palindrome_test;
     end
   end
 endmodule
+
+/* OUTPUT:
+    # KERNEL: '{arr:'{3, 6, 6, 6, 3, 6, 6, 6, 3}}
+    # KERNEL: '{arr:'{4, 3, 3, 2, 8, 2, 3, 3, 4}}
+    # KERNEL: '{arr:'{2, 3, 8, 8, 7, 8, 8, 3, 2}}
+    # KERNEL: '{arr:'{9, 7, 7, 8, 1, 8, 7, 7, 9}}
+    # KERNEL: '{arr:'{3, 4, 5, 2, 3, 2, 5, 4, 3}}
+*/
