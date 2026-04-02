@@ -12,3 +12,6 @@ module odd_even_arr;
     $display("%p", arr);
   end
 endmodule
+
+/* OUTPUT:
+      # KERNEL: '{0, 3, 4, 7, 8, 11, 12, 15, 16, 19, 20, 23, 24, 27, 28, 31, 32, 35, 36, 39} */
