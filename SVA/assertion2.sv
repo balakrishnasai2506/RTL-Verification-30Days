@@ -1,3 +1,5 @@
+/* Implement an assertion to check req is followed by ack within 3 cycles. */
+
 module assertion2;
 
   bit clk;
