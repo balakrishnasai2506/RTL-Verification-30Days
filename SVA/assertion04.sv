@@ -32,3 +32,16 @@ module assertion4;
       $finish;
     end
 endmodule
+
+/* OUTPUT:
+# Loading sv_std.std
+# Loading work.assertion4(fast)
+# run -all
+#                   15  ASSERTION FAILED: DATA UNSTABLE
+#                   35  ASSERTION PASSED: DATA IS STABLE
+#                   45  ASSERTION PASSED: DATA IS STABLE
+# ** Note: $finish    : assertion4.sv(32)
+#    Time: 50 ns  Iteration: 0  Instance: /assertion4
+# End time: 13:10:01 on Apr 10,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+*/
