@@ -45,3 +45,15 @@ module assertion2;
   end
 
 endmodule
+
+/* OUTPUT:
+# Loading sv_std.std
+# Loading work.assertion2(fast)
+# run -all
+# [45] ASSERTION FAILED
+# [85] ASSERTION PASSED
+# ** Note: $finish    : assertion2.sv(44)
+#    Time: 90 ns  Iteration: 0  Instance: /assertion2
+# End time: 13:08:12 on Apr 10,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+*/
