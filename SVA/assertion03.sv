@@ -32,3 +32,15 @@ module assertion3;
     end
 endmodule
     
+/*OUTPUT :
+# Loading sv_std.std
+# Loading work.assertion3(fast)
+# run -all
+#                   25  ASSERTION FAILED, VALID DID NOT REMAIN HIGH FOR 2 CYCLES
+#                   65  ASSERTION PASSED, VALID REMAINED HIGH FOR 2 CYCLES
+# ** Note: $finish    : assertion3.sv(31)
+#    Time: 80 ns  Iteration: 0  Instance: /assertion3
+# End time: 13:05:58 on Apr 10,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+
+*/
