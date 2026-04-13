@@ -3,6 +3,7 @@
 22
 333
 4444
+.......
 */
 module pattern;
   integer n;
@@ -11,7 +12,7 @@ module pattern;
   integer i, j;
   
   initial begin
-    n = 6;
+    n = $urandom_range(1,100);
     arr = new[n];
     for(i = 0; i < n; i = i+1) begin
       for(j = 0; j <= i; j = j+1)
